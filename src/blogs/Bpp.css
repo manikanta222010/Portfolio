@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+.container{
+    color: #fff;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    overflow: hidden !important;
+}
+.container *{
+    margin-bottom: 12px;
+}
+.container h1{
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+.ppsmall{
+    border-radius: 50%;
+}
+.blog-personal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-personal1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.blog-personal1 span{
+    padding-left: 6px;
+}
+.laptop{
+    width: 100%;
+    border-radius: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+pre {
+    background: #1c1d1a !important;
+}
+
+pre, code, kbd, samp {
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 1em;
+}
+
+
+pre {
+    display: block;
+    font-family: 'Oxygen Mono', monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
+
+/* *
+::selection {
+    background-color: #90cdf4;
+    color: #fefefe;
+} */
+
+
+
+
+.token.atrule, .token.builtin, .token.important, .token.keyword, .token.selector {
+    color: #cc99cd;
+}
+.token.punctuation {
+    color: #ccc;
+}
+.token.attr-value, .token.char, .token.regex, .token.string, .token.variable {
+    color: #7ec699;
+}
+.token.class-name, .token.constant, .token.property, .token.symbol {
+    color: #f8c555;
+}
+.token.boolean, .token.function, .token.number {
+    color: #f08d49;
+}
+.token.entity, .token.operator, .token.url {
+    color: #67cdcc;
+}
+
+
+

@@ -299,30 +299,6 @@ function Projects() {
             </div>
           </div>
 
-          <div className='project-display upcoming' data-label="In Progress">
-            <div className='project-image image-box'>
-              <img src={dog} alt="" className='image' />
-            </div>
-            <div className='project-info'>
-              <p className='project-title'>Dog World</p>
-              <p className='project-description'>Dog world is a simple appication that gives random photos of the selected dog breed and also a dog's fact. Dog World is based on open source Dog REST API</p>
-              <div className='project-tags'>
-                <button className='css'><i class="fa-brands fa-css3-alt"></i> CSS</button>
-                <button className='javascript'><i className="fab fa-js-square"></i> JavaScript</button>
-
-              </div>
-              <div className='project-tags t1'>
-                <button className='github' title="View code" onClick={() => window.open("https://github.com/manikanta222010/ZenClass-Day25-Task2")}>
-                  <i className="fab fa-github fa-github2"></i>
-                </button>
-              </div>
-              <div className='project-tags t2'>
-                <button className='github' title="Open link" onClick={() => window.open("https://compassionate-boyd-31477a.netlify.app")}>
-                  <i className="fas fa-external-link-alt"></i>
-                </button>
-              </div>
-            </div>
-          </div>
 
           <div className='project-display' >
             <div className='project-image image-box'>

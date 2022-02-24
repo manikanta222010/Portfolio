@@ -848,6 +848,7 @@ footer div:nth-child(1){
 /* Project ends */
 
 /* 404 page */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 #main {
   display: grid;
   place-items: center;

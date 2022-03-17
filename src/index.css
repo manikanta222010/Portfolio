@@ -323,7 +323,7 @@ a {
   -ms-transform: scale(1.1);  
   transform: scale(1.1);
 } 
-@media screen and (max-width: 1360px){
+@media screen and (max-width: 1080px){
   .project-display{
     flex-direction: column;
     flex-wrap: wrap;

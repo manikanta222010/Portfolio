@@ -873,8 +873,8 @@ footer div:nth-child(1){
   0% {transform: skew(-10deg, 10deg) scale(1.1)}
   25% {transform: skew(10deg, -10deg) scale(1)}
   50% {transform: skew(-10deg, 10deg) scale(1)}
-  75% {transform: skew(10deg, -10deg)scale(1.1)}
-  99% {transform: skew(-10deg, 10deg)scale(1.1)}
+  75% {transform: skew(10deg, -10deg) scale(1.1)}
+  99% {transform: skew(-10deg, 10deg) scale(1.1)}
 }
 .action {
   position: fixed;

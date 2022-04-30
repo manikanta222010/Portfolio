@@ -7,6 +7,7 @@ import crud from '../Images/crud.png';
 import cc from '../Images/cc.png';
 import so from '../Images/so.png';
 import wop from '../Images/wop.png';
+import sl from '../Images/sl.png';
 import { Header } from './Header';
 import { Footer } from './Footer';
 
@@ -39,12 +40,39 @@ export function Projects() {
             </div>
             <div className='project-info'>
               <p className='project-title'>World of PCs</p>
-              <p className='project-description'>SpaceX-Mime is a simple tool built to observe and find out history of previous space missions and upcoming orbital missions. It provides a whole range of data such as missions, launches and rockets.
-                SpaceX-Mine is based on open source SpaceX REST API</p>
+              <p className='project-description'>This WoP ecommerce website allows users to buy all the required PC components over the internet rather than at a physical store and also provide payment gateway like PayPal to make transactions.</p>
               <div className='project-tags'>
                 <button className='react'><i className="fa-brands fa-react"></i> React</button>
                 <button className='nodejs'><i className="fa-brands fa-node-js"></i> NodeJS</button>
                 <button className='css'><i className="fa-brands fa-css3-alt"></i> CSS</button>
+                <button className='mongo'><i className="fa-solid fa-database"></i> MongoDB</button>
+
+              </div>
+              <div className='project-tags t1'>
+                <button className='github' title="View code" onClick={() => window.open("https://github.com/manikanta222010/ZenClass-Day25-Task1")}>
+                  <i className="fab fa-github fa-github2"></i>
+                </button>
+              </div>
+              <div className='project-tags t2'>
+                <button className='github' title="Open link" onClick={() => window.open("https://worldofpcs.herokuapp.com/")}>
+                  <i className="fas fa-external-link-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+
+          <div className='project-display'>
+            <div className='project-image image-box'>
+              <img src={sl} alt="SpaceX-Mime" className='image' />
+            </div>
+            <div className='project-info'>
+              <p className='project-title'>Study List</p>
+              <p className='project-description'>Study list maker helps people to save the required blogs, videos URLs. As individual user can login and look into their saved information.</p>
+              <div className='project-tags'>
+                <button className='react'><i className="fa-brands fa-react"></i> React</button>
+                <button className='nodejs'><i className="fa-brands fa-node-js"></i> NodeJS</button>
+                <button className='css'><i class="fa-brands fa-uikit"></i> Material UI</button>
                 <button className='mongo'><i className="fa-solid fa-database"></i> MongoDB</button>
 
               </div>

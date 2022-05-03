@@ -82,7 +82,7 @@ export function Projects() {
                 </button>
               </div>
               <div className='project-tags t2'>
-                <button className='github' title="Open link" onClick={() => window.open("https://studylist-maker.netlify.app/login")}>
+                <button className='github' title="Open link" onClick={() => window.open("https://studylist-maker.netlify.app")}>
                   <i className="fas fa-external-link-alt"></i>
                 </button>
               </div>

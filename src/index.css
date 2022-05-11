@@ -363,49 +363,59 @@ a {
 }
 .fa-bootstrap, .bootstrap{
   color: #D6BCFA;
-  font-weight: 550;
+  font-weight: 600;
 }
 .bootstrap{
   background-color: #29252F;
 }
 .fa-js-square, .javascript{
   color: #FAF089;
-  font-weight: 550;
+  font-weight: 600;
 }
 .javascript{
   background-color: #2F2E1D;
 }
 .fa-css3-alt, .css{
   color: #2EA3D5;
-  font-weight: 550;
+  font-weight: 600;
 }
 .css{
   background-color: #3d818a3b;
 }
+.socket{
+  color: #F0F0F0;
+  background-color: #f0f0f033;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.socket img{
+  margin-right: 8px;
+}
 .fa-react, .react{
   color: #90CDD4;
-  font-weight: 550;
+  font-weight: 600;
 }
 .react{
   background-color: #1E282E;
 }
 .nodejs, .fa-node-js{
   color: #0d8b08;
-  font-weight: 550;
+  font-weight: 600;
 }
 .nodejs{
   background-color: #30f52d27;
 }
 .fa-database, .mongo{
   color: #11bd0b;
-  font-weight: 550;
+  font-weight: 600;
 }
 .mongo{
   background-color: #30f52d27;
 }
 .fa-code, .mock{
   color: #bfd6eb;
-  font-weight: 550;
+  font-weight: 600;
 }
 .mock{
   background-color: #2B2C2E;

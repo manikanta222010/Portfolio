@@ -8,6 +8,8 @@ import cc from '../Images/cc.png';
 import so from '../Images/so.png';
 import wop from '../Images/wop.png';
 import sl from '../Images/sl.png';
+import ichat from '../Images/ichat.png';
+import socketio from '../Images/socketio.png';
 import { Header } from './Header';
 import { Footer } from './Footer';
 
@@ -55,6 +57,37 @@ export function Projects() {
               </div>
               <div className='project-tags t2'>
                 <button className='github' title="Open link" onClick={() => window.open("https://worldofpcs.herokuapp.com/")}>
+                  <i className="fas fa-external-link-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div className='project-display'>
+            <div className='project-image image-box'>
+              <img src={ichat} alt="SpaceX-Mime" className='image' />
+            </div>
+            <div className='project-info'>
+              <p className='project-title'>iChat</p>
+              <p className='project-description'>This chat application makes it easy to communicate with people anywhere in the world by sending and receiving messages in real time. Users can enjoy the same engaging and lively interactions through unique messaging capabilities as they would in person using a chat app.</p>
+              <div className='project-tags'>
+                <button className='react'><i className="fa-brands fa-react"></i> React</button>
+                <button className='nodejs'><i className="fa-brands fa-node-js"></i> NodeJS</button>
+                <button className='socket'><img src={socketio} alt="SpaceX-Mime" className='' width={"18px"}/> Socket.io</button>
+                <button className='mongo'><i className="fa-solid fa-database"></i> MongoDB</button>
+
+              </div>
+              <div className='project-tags t1'>
+                <button className='github' title="View code" onClick={() => window.open("https://github.com/manikanta222010/ZenClass-Day25-Task1")}>
+                  <i className="fab fa-github fa-github2"></i>
+                </button>
+              </div>
+              <div className='project-tags t2'>
+                <button className='github' title="Open link" onClick={() => window.open("https://ichat-new.herokuapp.com")}>
                   <i className="fas fa-external-link-alt"></i>
                 </button>
               </div>

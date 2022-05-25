@@ -33,7 +33,7 @@ export function Home() {
               <a href="mailto:manikanta222010@gmail.com" target="_blank" rel="noopener noreferrer">
                 <button><i className="fas fa-envelope social"></i> Email</button>
               </a>
-              <a href='https://drive.google.com/file/d/1YLar6ig5sYI8N0ri7bVFukkpg_EZa3yD/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+              <a href='https://drive.google.com/file/d/19Oq_AwbfRLemqAJkwxPytKsdcAHnVZwY/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                 <button><i className="fas fa-file-alt social"></i> Resume</button>
               </a>
 

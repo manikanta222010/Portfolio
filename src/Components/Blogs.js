@@ -57,9 +57,13 @@ export function Blog1() {
                 <p>One thing to note here is I used , which returns the current file name! It's one of the most common snippets variable in VSCode.</p>
 
 
+                <iframe title="blog1_code1"
+                    src="https://carbon.now.sh/embed/z1Qrpgl8AzW9gRh2Qan7"
+                    Style="width: 100%; height: 490px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
 
-
-                <div>
+                {/* <div>
                     <pre class="language-js line-numbers" tabindex="0">    <code class="language-js">
                         <br /><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">&#x0007B;</span> Component <span class="token punctuation">&#x0007D;</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
 
@@ -79,14 +83,20 @@ export function Blog1() {
                         <br /><span class="token punctuation">&#x0007D;</span>
                         <br /><span class="token punctuation">&#x0007D;</span>
                     </code></pre>
-                </div>
+                </div> */}
 
 
 
                 <h3>getDerivedStateFromProps()</h3>
                 <p>Before rendering the element in our DOM, the getDerivedStateFromProps function is invoked. It takes two arguments: props and state, and returns an object with state changes.</p>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog1_code2"
+                    src="https://carbon.now.sh/embed/pxwyNhkpxGgaEW1B60kK"
+                    Style="width: 100%; height: 700px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">&#x0007B;</span> Component <span class="token punctuation">&#x0007D;</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
 
                     <br /><span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">ChildComponent</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">&#x0007B;</span>
@@ -117,13 +127,19 @@ export function Blog1() {
                     <br />      <span class="token punctuation">)</span>
                     <br />  <span class="token punctuation">&#x0007D;</span>
                     <br /><span class="token punctuation">&#x0007D;</span>
-                </code></pre>
+                </code></pre> */}
 
 
                 <h3>Render()</h3>
                 <p>This is the sole method that the React framework requires. This method is in charge of converting our JSX to DOM.</p>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog1_code3"
+                    src="https://carbon.now.sh/embed/KwlXtTt2QuAv1aZB22HA"
+                    Style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">&#x0007B;</span> Component <span class="token punctuation">&#x0007D;</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
 
                     <br /><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">renderMethod</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">&#x0007B;</span>
@@ -136,13 +152,19 @@ export function Blog1() {
                     <br />  <span class="token punctuation">&#x0007D;</span>
                     <br /><span class="token punctuation">&#x0007D;</span>
                 </code>
-                </pre>
+                </pre> */}
 
 
                 <h3>componentDidMount()</h3>
                 <p>componentDidMount is the most popular and commonly used lifecycle method. After the component has been rendered, this function is invoked. This function can also be used to access external data from the API.</p>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog1_code4"
+                    src="https://carbon.now.sh/embed/XxLEhkmpq8qd2h9SFPZB"
+                    Style="width: 100%; height: 600px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">&#x0007B;</span> Component <span class="token punctuation">&#x0007D;</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
 
                     <br /><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">componentDidMountMethod</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">&#x0007B;</span>
@@ -167,7 +189,7 @@ export function Blog1() {
                     <br />  <span class="token punctuation">&#x0007D;</span>
                     <br /><span class="token punctuation">&#x0007D;</span>
 
-                </code></pre>
+                </code></pre> */}
 
 
                 <h3>Update</h3>
@@ -186,7 +208,13 @@ export function Blog1() {
                 <h3>Shouldcomponenetupdate()</h3>
                 <p>When you want your state or props to update or not, you utilise this lifecycle method. This function returns a boolean value indicating whether or not rendering should be performed. True is the default value.</p>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog1_code5"
+                    src="https://carbon.now.sh/embed/CFJwAmhj4ktoJ8NOfbDM"
+                    Style="width: 100%; height: 710px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">&#x0007B;</span> Component <span class="token punctuation">&#x0007D;</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
 
                     <br /><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">shouldComponentUpdateMethod</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">&#x0007B;</span>
@@ -214,14 +242,19 @@ export function Blog1() {
                     <br />   <span class="token punctuation">&#x0007D;</span>
                     <br /><span class="token punctuation">&#x0007D;</span>
 
-                </code></pre>
+                </code></pre> */}
 
 
                 <h3>componentDidUpdate()</h3>
                 <p>After the component has been updated in the DOM, the componentDidUpdate function is called. This is the best area to update the DOM in response to props and state changes.</p>
 
+                <iframe title="blog1_code6"
+                    src="https://carbon.now.sh/embed/7PUR1d2F6fV9xqX3SFRj"
+                    Style="width: 100%; height: 800px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">&#x0007B;</span> Component <span class="token punctuation">&#x0007D;</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
 
                     <br /><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">componentDidUpdateMethod</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">&#x0007B;</span>
@@ -251,7 +284,7 @@ export function Blog1() {
                     <br />  <span class="token punctuation">&#x0007D;</span>
                     <br /><span class="token punctuation">&#x0007D;</span>
 
-                </code></pre>
+                </code></pre> */}
 
 
                 <h2>Unmounting</h2>
@@ -263,8 +296,13 @@ export function Blog1() {
                 <h3>componentWillUnmount()</h3>
                 <p>Any cleanup activities, such as cancelling API calls or deleting storage caches, can be performed in the componentWillUnmount function. Because the component will never be re-rendered, you can't use setState inside this method.</p>
 
+                <iframe title="blog1_code7"
+                    src="https://carbon.now.sh/embed/NsDeKkkj95JGPg3PBILL"
+                    Style="width: 100%; height: 870px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
 
                     <span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">&#x0007B;</span> Component <span class="token punctuation">&#x0007D;</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
 
@@ -299,7 +337,7 @@ export function Blog1() {
 
 
 
-                    <code /></code></pre>
+                    <code /></code></pre> */}
 
             </div>
         </section>
@@ -326,21 +364,12 @@ export function Blog2() {
                 <h2>JavaScript Promise Object</h2>
                 <p>The producing code and calls to the consuming code are both contained in a JavaScript Promise object</p>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog2_code1"
+                    src="https://carbon.now.sh/embed/KesXbcVJQQUuhZlMM1k7"
+                    Style="width: 100%; height: 450px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
 
-                    <span class="token keyword">let</span> myPromise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">isResolved<span class="token punctuation">,</span> isRejected</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
-                    <br />  <span class="token comment">// "Producing Code" (May take some time)</span>
-                    <br />  <span class="token function">isResolved</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// when successful</span>
-                    <br />  <span class="token function">isRejected</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// when error</span>
-                    <br /><span class="token punctuation">&#x0007D;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br /><br />
-                    <span class="token comment">// "Consuming Code" (Must wait for a fulfilled Promise)</span>
-                    <br />myPromise<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>
-                    <br />  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span> <span class="token comment">/* code if successful */</span> <span class="token punctuation">&#x0007D;</span><span class="token punctuation">,</span>
-                    <br />  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span> <span class="token comment">/* code if some error */</span> <span class="token punctuation">&#x0007D;</span>
-                    <br /><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-                </code></pre>
                 <p>When the producing code receives the result, one of the two callbacks should be called.</p>
                 <h2>Promise Object Properties</h2>
                 <p>A JavaScript Promise object can be:</p>
@@ -360,37 +389,24 @@ export function Blog2() {
                     <li> &nbsp;To handle promises, you must utilise the Promise method.</li>
                 </ul>
                 <h2>How to use promise method</h2>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
 
-                    <br />myPromise<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>
-                    <br />  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span> <span class="token comment">/* code if successful */</span> <span class="token punctuation">&#x0007D;</span><span class="token punctuation">,</span>
-                    <br />  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span> <span class="token comment">/* code if some error */</span> <span class="token punctuation">&#x0007D;</span>
-                    <br /><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                </code></pre>
+                <iframe title="blog2_code2"
+                    src="https://carbon.now.sh/embed/XnuPg9e9leQW0TWWC3Su"
+                    Style="width: 100%; height: 280px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+ 
                 <ul>
                     <li>Promise. then() takes two arguments: a success callback and a failure callback.</li>
                     <li>Both are optional, so you can specify whether you want a callback for success or failure.</li>
                 </ul>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
 
-                    <br /><span class="token keyword">let</span> myPromise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">isResolved<span class="token punctuation">,</span> isRejected</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
-                    <br />  <span class="token keyword">let</span> x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-                    <br />
-                    <br />  <span span class="token comment">// The producing code (this may take some time)</span>
-                    <br />
-                    <br />  <span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
-                    <br />      <span class="token function">isResolved</span><span class="token punctuation">(</span><span class="token string">"OK"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br />  <span class="token punctuation">&#x0007D;</span> <span class="token keyword">else</span> <span class="token punctuation">&#x0007B;</span>
-                    <br />      <span class="token function">isRejected</span><span class="token punctuation">(</span><span class="token string">"Error"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br />  <span class="token punctuation">&#x0007D;</span>
-                    <br /><span class="token punctuation">&#x0007D;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br />
-                    <br />myPromise<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>
-                    <br />  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span><span class="token function">myDisplayer</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">&#x0007D;</span><span class="token punctuation">,</span>
-                    <br />  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span><span class="token function">myDisplayer</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">&#x0007D;</span>
-                    <br /><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <iframe title="blog2_code3"
+                    src="https://carbon.now.sh/embed/cl0rs7vv5E1vTP835oVE"
+                    Style="width: 100%; height: 510px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
 
-                </code></pre>
                 <p>We'll utilise the callback examples from the previous chapter to explain the use of promises:</p>
                 <ul>
                     <li>Waiting for a Timeout</li>
@@ -398,37 +414,19 @@ export function Blog2() {
                 </ul>
 
                 <h3>Example using Promise1:</h3>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
-
-                    <br /><span class="token keyword">let</span> myPromise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">isResolved<span class="token punctuation">,</span> isRejected</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
-                    <br />   <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span> <span class="token function">isResolved</span><span class="token punctuation">(</span><span class="token string">"I love You !!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">&#x0007D;</span><span class="token punctuation">,</span> <span class="token number">3000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br /><span class="token punctuation">&#x0007D;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-                </code></pre>
+                <iframe title="blog2_code4"
+                    src="https://carbon.now.sh/embed/NhRbDRF4qnnEyKFu4GEy"
+                    Style="width: 100%; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
 
                 <h3>Example using Promise2:</h3>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
 
-                    <br /><span class="token keyword">let</span> myPromise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">isResolved<span class="token punctuation">,</span> isRejected</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
-                    <br />   <span class="token keyword">let</span> req <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">XMLHttpRequest</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br />   req<span class="token punctuation">.</span><span class="token function">open</span><span class="token punctuation">(</span><span class="token string">'GET'</span><span class="token punctuation">,</span> <span class="token string">"mycar.html"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br />   req<span class="token punctuation">.</span><span class="token function-variable function">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
-                    <br />   <span class="token keyword">if</span> <span class="token punctuation">(</span>req<span class="token punctuation">.</span>status <span class="token operator">==</span> <span class="token number">200</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
-                    <br />       <span class="token function">isResolved</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br />   <span class="token punctuation">&#x0007D;</span> <span class="token keyword">else</span> <span class="token punctuation">&#x0007B;</span>
-                    <br />       <span class="token function">isRejected</span><span class="token punctuation">(</span><span class="token string">"File not Found"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br />   <span class="token punctuation">&#x0007D;</span>
-                    <br /><span class="token punctuation">&#x0007D;</span><span class="token punctuation">;</span>
-                    <br />req<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br /><span class="token punctuation">&#x0007D;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <br />
-                    <br />myPromise<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>
-                    <br />   <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span><span class="token function">myDisplayer</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">&#x0007D;</span><span class="token punctuation">,</span>
-                    <br />   <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span><span class="token function">myDisplayer</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">&#x0007D;</span>
-                    <br /><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-                </code></pre>
-
+                <iframe title="blog2_code5"
+                    src="https://carbon.now.sh/embed/RCW5OUn3t7A0NZTKnC29"
+                    Style="width: 100%; height: 540px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
 
             </div>
         </section>
@@ -458,7 +456,14 @@ export function Blog3() {
                 </ul>
                 <h2>FUNCTIONAL SEQUENCE:</h2>
                 <p>The sequence in which JavaScript functions are called determines how they are executed. Not in the order in which they are listed.</p>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                
+                <iframe title="blog3_code1"
+                    src="https://carbon.now.sh/embed/YNHQnaOSNVovmVZkNzt9"
+                    Style="width: 100%; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
 
                     <span class="token keyword">function</span> <span class="token function">firstFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />  <span class="token function">myDisplayer</span><span class="token punctuation">(</span><span class="token string">"Good morning"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -471,7 +476,7 @@ export function Blog3() {
                     <br /><span class="token function">firstFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
                     <br /><span class="token function">secondFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-                </code></pre>
+                </code></pre> */}
                 <p>"Good night" will be displayed as a result of this example.</p>
                 <h2>SEQUENCE CONTROL:</h2>
                 <ul>
@@ -480,7 +485,13 @@ export function Blog3() {
                     <li>You may use a calculator function (myCalculator), save the result, and then show it using another function (myDisplayer).</li>
                 </ul>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog3_code2"
+                    src="https://carbon.now.sh/embed/M1c3Q5OMuQ3m5GtTeAFv"
+                    Style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
 
                     <span class="token keyword">function</span> <span class="token function">displayer</span><span class="token punctuation">(</span><span class="token parameter">some</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />  document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">"demo"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> some<span class="token punctuation">;</span>
@@ -492,10 +503,16 @@ export function Blog3() {
                     <br /> <br /><span class="token keyword">let</span> result <span class="token operator">=</span> <span class="token function">addition</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
                     <br /><span class="token function">displayer</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-                </code></pre>
+                </code></pre> */}
                 <p>Alternatively, you might call a calculator function (myCalculator) and have it call the display function (myDisplayer)</p>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog3_code3"
+                    src="https://carbon.now.sh/embed/ZtcXn2hFn4OtaKolp5ZU"
+                    Style="width: 100%; height: 320px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
 
                     <span class="token keyword">function</span> <span class="token function">displayer</span><span class="token punctuation">(</span><span class="token parameter">some</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />  document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">"demo"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> some<span class="token punctuation">;</span>
@@ -508,7 +525,7 @@ export function Blog3() {
                     <br />
                     <br /><span class="token function">addition</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-                </code></pre>
+                </code></pre> */}
 
                 <ul>
                     <li>The issue with the first example is that in order to display the result, you must call two functions.</li>
@@ -519,7 +536,13 @@ export function Blog3() {
                 <h2>JAVASCRIPT CALLBACKS:</h2>
                 <p>You might use a callback to call the calculator function (myCalculator) and have the calculator function run the callback once the calculation is complete.</p>
 
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog3_code4"
+                    src="https://carbon.now.sh/embed/wurER0vsDDXtyYxF6Aex"
+                    Style="width: 100%; height: 320px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
 
                     <span class="token keyword">function</span> <span class="token function">displayer</span><span class="token punctuation">(</span><span class="token parameter">some</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />   document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">"demo"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> some<span class="token punctuation">;</span>
@@ -530,7 +553,7 @@ export function Blog3() {
                     <br /><span class="token punctuation">&#x0007D;</span>
                     <br /><br /><span class="token function">addition</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> displayer<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-                </code></pre>
+                </code></pre> */}
 
                 <ul>
                     <li>In the example above, myDisplayer is the name of a function.</li>
@@ -565,24 +588,46 @@ export function Blog4() {
                 <p>The await keyword causes a function to wait for a Promise.</p>
                 <h2>Async Syntax</h2>
                 <p>When you use the keyword async before a function, it will return a promise</p>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+
+                <iframe title="blog4_code1"
+                    src="https://carbon.now.sh/embed/1GZVgg4fhX7wK727txez"
+                    Style="width: 100%; height: 190px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <br /><span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />   <span class="token keyword">return</span> <span class="token string">"Hello"</span><span class="token punctuation">;</span>
                     <br /><span class="token punctuation">&#x0007D;</span>
-                </code></pre>
+                </code></pre> */}
                 <p>It is same as:</p>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog4_code2"
+                    src="https://carbon.now.sh/embed/Dg6rtecIjAhuGRJ2W8Fv"
+                    Style="width: 100%; height: 240px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <br /><span class="token keyword">function</span> <span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">"Hello"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
                     <br /><span class="token punctuation">&#x0007D;</span>
-                </code></pre>
+                </code></pre> */}
                 <h2>Await Syntax</h2>
                 <p>The term await is used before a function to make it wait for a promise</p>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog4_code3"
+                    src="https://carbon.now.sh/embed/npt6Y9sQQPvFdIomYRvw"
+                    Style="width: 100%; height: 160px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <br /><span class="token keyword">let</span> value <span class="token operator">=</span> <span class="token keyword">await</span> promise<span class="token punctuation">;</span>
-                </code></pre>
+                </code></pre> */}
                 <p>Only async functions are allowed to utilise the await keyword.</p>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog4_code4"
+                    src="https://carbon.now.sh/embed/SM3Dg1bRksWWxEumXEH2"
+                    Style="width: 100%; height: 380px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <br /><span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">displayer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />  <span class="token keyword">let</span> myPromise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />      <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">"Task completed"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -592,14 +637,19 @@ export function Blog4() {
                     <br />
                     <br /><span class="token function">displayer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-                </code></pre>
+                </code></pre> */}
                 <ul id="list">
                     <li> &nbsp;JavaScript has pre-defined the two arguments (resolve and reject).</li>
                     <li> &nbsp;We won't create them; instead, when the executor function is ready, we'll call one of them.</li>
                     <li> &nbsp;We won't require a reject function very often.</li>
                 </ul>
                 <h3>Example without reject:</h3>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+                <iframe title="blog4_code5"
+                    src="https://carbon.now.sh/embed/fp7YOWkapocDizVfwJfr"
+                    Style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <br /><span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">myDisplay</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />  <span class="token keyword">let</span> myPromise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">resolve</span><span class="token punctuation">)</span> <span class="token punctuation">&#x0007B;</span>
                     <br />      <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">"Task completed"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -608,7 +658,7 @@ export function Blog4() {
                     <br /><span class="token punctuation">&#x0007D;</span>
                     <br />
                     <br /><span class="token function">myDisplay</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                </code></pre>
+                </code></pre> */}
 
 
             </div>
@@ -650,7 +700,14 @@ export function Blog5() {
                     <li>Props can be accepted and used by functional components.</li>
                     <li>If you don't need to use React state, functional components should be preferred.</li>
                 </ul>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+
+                <iframe title="blog5_code1"
+                    src="https://carbon.now.sh/embed/0bGqee0jiCcSbCuRoJtW"
+                    Style="width: 100%; height: 330px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <br /><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">"react"</span><span class="token punctuation">;</span>
                     <br /><br /><span class="token keyword">const</span> <span class="token function-variable function">Person</span> <span class="token operator">=</span> <span class="token parameter">props</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span>
                     <br />  <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
@@ -658,7 +715,7 @@ export function Blog5() {
                     <br />  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
                     <br /><span class="token punctuation">)</span><span class="token punctuation">;</span>
                     <br /><span class="token keyword">export</span> <span class="token keyword">default</span> Person<span class="token punctuation">;</span>
-                </code></pre>
+                </code></pre> */}
                 <h2>CLASS COMPONENTS</h2>
                 <ul>
                     <li>In React, class components employ ES6 classes and extend the Component class.</li>
@@ -666,7 +723,14 @@ export function Blog5() {
                     <li>Inside class components, React lifecycle methods can be used (for example, componentDidMount).</li>
                     <li>This is how you pass props down to class components and get access to them.</li>
                 </ul>
-                <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
+
+                <iframe title="blog5_code2"
+                    src="https://carbon.now.sh/embed/lcv0A2AHkD0UVgkLkZpI"
+                    Style="width: 100%; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                {/* <pre class="language-js line-numbers" tabindex="0"><code class="language-js">
                     <br /><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">&#x0007B;</span> Component <span class="token punctuation">&#x0007D;</span> <span class="token keyword">from</span> <span class="token string">"react"</span><span class="token punctuation">;</span>
                     <br /><br /><span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">&#x0007B;</span>
                     <br />  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span><span class="token punctuation">&#x0007B;</span>
@@ -683,7 +747,7 @@ export function Blog5() {
                     <br />      <span class="token punctuation">)</span><span class="token punctuation">;</span>
                     <br />  <span class="token punctuation">&#x0007D;</span>
                     <br /><span class="token punctuation">&#x0007D;</span>
-                </code></pre>
+                </code></pre> */}
 
 
             </div>

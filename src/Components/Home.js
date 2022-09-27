@@ -48,7 +48,7 @@ export function Home() {
           <div className='about-des'>
             <div>
               <h2 className='about-heading about'>🎇About Me</h2>
-              <p>HEY! I’m Manikanta Srinivas Yedla, Final year Computer Science student from ICFAI University, Hyderabad, Telangana <img src="https://image.flaticon.com/icons/png/512/3909/3909444.png" width="13" alt='india' />
+              <p>HEY! I’m Manikanta Srinivas Yedla, Final year Computer Science student from ICFAI University, Hyderabad, Telangana <img src="https://cdn-icons-png.flaticon.com/512/3909/3909444.png" width="13" alt='india' />
 
                 <br />
                 <br />

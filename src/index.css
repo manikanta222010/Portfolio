@@ -916,40 +916,6 @@ footer div:nth-child(1){
 
 
 /* Scrollbar */
-.scrollbar
-{
-	margin-left: 30px;
-	float: left;
-	height: 300px;
-	width: 65px;
-	background: #F5F5F5;
-	overflow-y: scroll;
-	margin-bottom: 25px;
-}
-.force-overflow
-{
-	min-height: 450px;
-}
-#wrapper
-{
-	text-align: center;
-	width: 500px;
-	margin: auto;
-}
-#style-3::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
-}
-#style-3::-webkit-scrollbar
-{
-	width: 6px;
-	background-color: #F5F5F5;
-}
-#style-3::-webkit-scrollbar-thumb
-{
-	background-color: #000000;
-}
 * {
   scrollbar-width: 4px;
   scrollbar-color: #3ccf91 #ffffff;
@@ -995,6 +961,7 @@ footer div:nth-child(1){
 }
 .timeline__middle:hover{
   background: #3CCF91;
+  cursor: pointer;
 }
 .timeline__point {
   position: absolute;
@@ -1031,5 +998,10 @@ footer div:nth-child(1){
 }
 .titol {
   font-style: italic;
+}
+.shure{
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
 }
 /* Experience ends */

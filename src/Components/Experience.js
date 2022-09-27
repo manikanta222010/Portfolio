@@ -1,5 +1,6 @@
 import { Header } from './Header';
 import { Footer } from './Footer';
+import shurelogo from '../Images/shurelogo.png';
 
 export function Experience() {
 
@@ -69,7 +70,7 @@ export function Experience() {
           <p className="timeline__paragraph">
             Brane Enterpises Pvt Ltd - Company
           </p>
-          <p><i className="fa-solid fa-calendar-days"></i>&nbsp; Jan 2022 - Present</p>
+          <p><i className="fa-solid fa-calendar-days"></i>&nbsp; Jan 2022 - July 2022</p>
         </div>
 
 
@@ -80,6 +81,28 @@ export function Experience() {
         <div className="timeline__component timeline__component--bottom">
           <div className="timeline__date">2022</div>
         </div>
+
+
+        <div className="timeline__component">
+          {/* <div className="timeline__date timeline__date--right"></div> */}
+        </div>
+        <div className="timeline__middle">
+          {/* <div className="timeline__point"></div> */}
+        </div>
+
+        <div className="timeline__component timeline__component--bg">
+          <h2 className="timeline__title"><b>GET</b> - Graduate Engineer Trainee</h2>
+          <div className='shure'>
+            <img src={shurelogo} alt="experience-icon" width={"100px"} />
+            <span className="timeline__paragraph">
+                -  Company
+            </span>
+          </div>
+          <p><i className="fa-solid fa-calendar-days"></i>&nbsp; Sep 2022 - Present</p>
+        </div>
+
+
+
       </div>
 
 

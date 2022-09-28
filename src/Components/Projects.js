@@ -330,7 +330,7 @@ export function Projects() {
                 </button>
               </div>
               <div className='project-tags t2'>
-                <button className='github' title="Open link" onClick={() => window.open("https://serene-easley-49fe9c.netlify.app")}>
+                <button className='github' title="Open link" onClick={() => window.open("https://adoring-wing-42a0e8.netlify.app/")}>
                   <i className="fas fa-external-link-alt"></i>
                 </button>
               </div>

@@ -999,9 +999,10 @@ footer div:nth-child(1){
 .titol {
   font-style: italic;
 }
-.shure{
+.companylogo{
   display: flex;
   padding-top: 10px;
+  border-right: 10px;
   align-items: center;
 }
 /* Experience ends */
